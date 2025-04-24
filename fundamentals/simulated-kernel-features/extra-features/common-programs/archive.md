@@ -5,7 +5,7 @@ icon: box-taped
 
 # Archive
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/023-archive.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/023-archive.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Nitrocid KS provides this feature as an addon.

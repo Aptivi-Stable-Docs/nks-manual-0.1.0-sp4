@@ -31,7 +31,7 @@ There are several base networking functions that are useful for your mods, such 
 
 ### Pinging a Server
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/142-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/142-inner.png" alt=""><figcaption></figcaption></figure>
 
 You can ping a server using the `PingAddress()` function, which contains several versions of the function that provide you different options:
 

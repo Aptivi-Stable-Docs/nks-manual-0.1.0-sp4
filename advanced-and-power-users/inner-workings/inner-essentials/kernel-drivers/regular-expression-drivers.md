@@ -5,7 +5,7 @@ icon: plug-circle-bolt
 
 # Regular Expression Drivers
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/127-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/127-inner.png" alt=""><figcaption></figcaption></figure>
 
 The regular expression driver is one of the supported driver types on Nitrocid KS. These drivers allow you to change how the regular expression works, thus earning dynamic regular expression improvements.
 

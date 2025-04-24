@@ -1,6 +1,6 @@
 ---
-description: What do I need to run Nitrocid?
 icon: box
+description: What do I need to run Nitrocid?
 ---
 
 # Dependency Information

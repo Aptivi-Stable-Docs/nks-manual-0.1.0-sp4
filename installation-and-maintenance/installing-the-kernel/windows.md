@@ -5,7 +5,7 @@ icon: windows
 
 # Windows
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/001-welcome.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/001-welcome.png" alt=""><figcaption></figcaption></figure>
 
 Installing Nitrocid KS on Windows is pretty easy, but we recommend installing the simulator using the Chocolatey package manager.
 
@@ -37,7 +37,7 @@ The Windows Installer method allows you to easily install Nitrocid KS.
 2. Double-click on a single EXE file, and follow the instructions
 3. Double-click on `Nitrocid KS` in your desktop.
 
-### Method 1: Chocolatey
+### Method 2: Chocolatey
 
 This step-by-step guide shows you how to install Nitrocid KS using the package manager, [Chocolatey](https://chocolatey.org/install), assuming that you already have it on your system.
 
@@ -45,7 +45,7 @@ This step-by-step guide shows you how to install Nitrocid KS using the package m
 2. Open your favorite terminal emulator, like ConEmu, and execute the following command: `choco install ks`
 3. Start Nitrocid KS using `ks`
 
-### Method 2: Manual unpack
+### Method 3: Manual unpack
 
 If you like to manually unpack the Nitrocid KS packages, follow these steps:
 
@@ -72,6 +72,6 @@ If you're a tester to such software, please follow the steps on your Windows mac
 
 SmartScreen may detect that the Nitrocid and its associated executables may not pass the SmartScreen attestation. If this happens, you'll see the below page:
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Nitrocid KS will not put your PC at risk (except if you downloaded a copy from an unofficial software distributor, or from an unofficial source other than our official GitHub releases found [here](https://github.com/Aptivi/NitrocidKS/releases), our Chocolatey page found [here](https://community.chocolatey.org/packages/KS), and our NuGet page found [here](https://www.nuget.org/packages/KS/)). Click on `More Info`, then click on `Run anyways`.

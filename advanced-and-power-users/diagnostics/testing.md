@@ -5,7 +5,7 @@ icon: vial
 
 # Testing
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/098-test.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/098-test.png" alt=""><figcaption></figcaption></figure>
 
 Another way to diagnose the kernel is through testing. It uses the facade system to allow you to test individual kernel features. It can be invoked by running Nitrocid KS with the `testInteractive` command-line argument.
 
@@ -25,7 +25,7 @@ Pressing ENTER will run a test facade and gives you an option to see whether the
 
 ## How it works?
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/099-test.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/099-test.png" alt=""><figcaption></figcaption></figure>
 
 The interactive test contains facades, each contained in the internal `TestFacade` class. It contains a status, a name, and a method to run the facade under an overridable `Run()` method.
 

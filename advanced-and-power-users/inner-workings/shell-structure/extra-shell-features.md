@@ -1,6 +1,6 @@
 ---
 description: The UESH shell provides more features than you can imagine!
-icon: plus
+icon: square-plus
 ---
 
 # Extra Shell Features
@@ -58,7 +58,7 @@ If your entire screen has been filled and the output isn't done yet, you can use
 
 ## Aliasing
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/113-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/113-shell.png" alt=""><figcaption></figcaption></figure>
 
 Additionally, the UESH shell provides you with facility to make aliasing long commands easier than before. The alias management class, `AliasManager`, allows you to manage the shell aliases, like adding aliases, editing them, removing them, and so on.
 

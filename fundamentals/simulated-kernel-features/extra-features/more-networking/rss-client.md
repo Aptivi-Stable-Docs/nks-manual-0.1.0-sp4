@@ -5,7 +5,7 @@ icon: square-rss
 
 # RSS Client
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/005-rss.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/005-rss.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 As of 0.1.0, this feature has been moved to the kernel addons.

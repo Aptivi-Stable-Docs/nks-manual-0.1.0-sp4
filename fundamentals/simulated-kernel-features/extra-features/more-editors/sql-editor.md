@@ -5,7 +5,7 @@ icon: database
 
 # SQL Editor
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/021-sqleditorcli.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/021-sqleditorcli.png" alt=""><figcaption></figcaption></figure>
 
 The SQL Shell allows you to execute any SQL command to a connected database file. It supports databases which are created by SQLite, MySQL, and their derivatives.
 
@@ -23,7 +23,7 @@ You can consult the below page for the list of SQL editor commands.
 
 ## Interactive TUI
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/022-sqleditortui.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/022-sqleditortui.png" alt=""><figcaption></figcaption></figure>
 
 You can also interactively edit SQL files using the powerful interactive TUI for hex editing. You can consult the below page for more information about how to use it:
 

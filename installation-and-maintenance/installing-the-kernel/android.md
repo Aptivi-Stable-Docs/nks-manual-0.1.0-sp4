@@ -1,11 +1,11 @@
 ---
-description: How to install Nitrocid KS on Android
 icon: android
+description: How to install Nitrocid KS on Android
 ---
 
 # Android
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/147-android.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/147-android.png" alt=""><figcaption></figcaption></figure>
 
 The tricky part is getting Nitrocid KS to run on Android phones and tablets, especially those that run the latest version of Android.
 
@@ -52,10 +52,6 @@ Once you're done, follow the steps:
    * `unzip 0.x.x.x-bin.zip`
 9. Execute `dotnet Nitrocid.dll`
 
-{% hint style="info" %}
-For 0.0.24.x or older, files that end with the `-dotnet` prefix means that it's for .NET 6.0.
-{% endhint %}
-
 ## Bleeding-edge
 
 Bleeding-edge builds usually come from building the development branch of the kernel, and they usually contain bugs and other untested features.
@@ -64,7 +60,7 @@ If you're a tester to such software, please follow the steps on your Windows mac
 
 1. Open the [canary release preparation workflow](https://github.com/Aptivi/Nitrocid/actions/workflows/release-canary.yml)
 2. Select the most recent build
-3. Scroll down to Artifacts and click on the `nks-build` button to download the ZIP file.
+3. Scroll down to Artifacts and click on the `nks-build` button to download the ZIP file or one of the `installer-ARCH-msi` files for the installer version, where `ARCH` is either `x64` or `arm64`.
 4. Repeat steps 1-6 in the `Installation` section
 5. Now, use the `termux-setup-storage` command. Follow the instructions [here](https://wiki.termux.com/wiki/Termux-setup-storage).
 6. Copy the `nks-build.zip` file from `~/storage/downloads/nks-build.zip` to your home directory

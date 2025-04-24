@@ -5,17 +5,15 @@ icon: star
 
 # Simulated Kernel Features
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/002-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/002-shell.png" alt=""><figcaption></figcaption></figure>
 
 Within the simulated kernel, there are big amounts of features that actually excite you. As new versions get released, new and spectacular features get added.
 
 {% hint style="warning" %}
-Some features of the kernel, such as the usage of SpecProbe driver, may need elevated privileges. To get access to these elevated privileges on Windows, use the `winelevate` command.
-
-We advice that you don't restart Nitrocid as an elevated application unless absolutely necessary.
+Some features of the kernel, such as the usage of SpecProbe driver, may need elevated privileges. To get access to these elevated privileges on Windows, use the `winelevate` command. However, we advice that you don't restart Nitrocid as an elevated application unless absolutely necessary.
 {% endhint %}
 
-The buttons below lists some of the features that blow your mind.
+As of 0.1.1, you can now use your mouse to navigate the kernel's interactive TUIs, but that doesn't mean that you can quit using your keyboard, as you'll still need it for many tasks, including the UESH shell. The buttons below lists some of the features that blow your mind.
 
 {% content-ref url="accounts/" %}
 [accounts](accounts/)
@@ -43,10 +41,6 @@ The buttons below lists some of the features that blow your mind.
 
 {% content-ref url="screensavers.md" %}
 [screensavers.md](screensavers.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 
 In addition to the above features, consult the below page to get some of the extra features:

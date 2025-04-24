@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome!](README.md)
+* [Version Release Notes](version-release-notes.md)
 
 ## Installation and Maintenance
 
@@ -32,6 +33,7 @@
       * [Hangman](fundamentals/simulated-kernel-features/extra-features/games-and-amusements/hangman.md)
       * [BackRace](fundamentals/simulated-kernel-features/extra-features/games-and-amusements/backrace.md)
       * [Meteor](fundamentals/simulated-kernel-features/extra-features/games-and-amusements/meteor.md)
+      * [Pong](fundamentals/simulated-kernel-features/extra-features/games-and-amusements/pong.md)
       * [Russian Roulette](fundamentals/simulated-kernel-features/extra-features/games-and-amusements/russian-roulette.md)
       * [ShipDuet](fundamentals/simulated-kernel-features/extra-features/games-and-amusements/shipduet.md)
       * [Snaker](fundamentals/simulated-kernel-features/extra-features/games-and-amusements/snaker.md)
@@ -52,6 +54,7 @@
       * [Music Player](fundamentals/simulated-kernel-features/extra-features/common-programs/music-player.md)
       * [Notes](fundamentals/simulated-kernel-features/extra-features/common-programs/notes.md)
       * [SSH Connection](fundamentals/simulated-kernel-features/extra-features/common-programs/ssh-connection.md)
+      * [Stocks](fundamentals/simulated-kernel-features/extra-features/common-programs/stocks.md)
       * [Timers](fundamentals/simulated-kernel-features/extra-features/common-programs/stopwatch-and-timer.md)
       * [To-do List](fundamentals/simulated-kernel-features/extra-features/common-programs/to-do-list.md)
       * [Unit Converter](fundamentals/simulated-kernel-features/extra-features/common-programs/unit-converter.md)
@@ -70,9 +73,11 @@
     * [Addon Commands List](fundamentals/simulated-kernel-features/shells/addon-commands-list.md)
   * [Files and Folders](fundamentals/simulated-kernel-features/files-and-folders/README.md)
     * [Hashing and Encryption](fundamentals/simulated-kernel-features/files-and-folders/hashing-and-encryption.md)
+  * [The Nitrocid Homepage](fundamentals/simulated-kernel-features/the-nitrocid-homepage.md)
   * [Networking](fundamentals/simulated-kernel-features/networking.md)
   * [Languages](fundamentals/simulated-kernel-features/languages.md)
   * [Screensavers](fundamentals/simulated-kernel-features/screensavers.md)
+  * [Lockscreen Widgets](fundamentals/simulated-kernel-features/lockscreen-widgets.md)
 
 ## Advanced and Power Users
 
@@ -142,6 +147,10 @@
     * [Remote Debugging](advanced-and-power-users/diagnostics/debugging/remote-debugging.md)
   * [Testing](advanced-and-power-users/diagnostics/testing.md)
   * [Other Diagnostics](advanced-and-power-users/diagnostics/other-diagnostics.md)
+* [Bootloader](advanced-and-power-users/bootloader/README.md)
+  * [Boot Choices](advanced-and-power-users/bootloader/boot-choices.md)
+  * [Kernel Environments](advanced-and-power-users/bootloader/boot-apps.md)
+  * [Custom Boot Styles](advanced-and-power-users/bootloader/custom-boot-styles.md)
 * [Inner Workings](advanced-and-power-users/inner-workings/README.md)
   * [Kernel Settings](advanced-and-power-users/inner-workings/kernel-settings/README.md)
     * [Mechanics of Settings App](advanced-and-power-users/inner-workings/kernel-settings/mechanics-of-settings-app.md)

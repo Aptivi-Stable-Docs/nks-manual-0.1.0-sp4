@@ -1,6 +1,6 @@
 ---
-description: List of available commands
 icon: square-code
+description: List of available commands
 ---
 
 # Commands List
@@ -21,8 +21,11 @@ Nitrocid KS currently provides the following commands (you can see their definit
 | `adduser`               | `<username> [password]`                                                          |
 | `addusertogroup`        | `<username> <group>`                                                             |
 | `admin`                 |                                                                                  |
+| `alarm`                 | `<start/stop> <alarmname> [interval]`                                            |
+|                         | `<list>`                                                                         |
+|                         | `[-tui]`                                                                         |
 | `alias`                 | `<rem/add> <shelltype> <alias> [cmd]`                                            |
-| `beep`                  |                                                                                  |
+| `beep`                  | `[freq] [ms]`                                                                    |
 | `blockdbgdev`           | `<ipaddress>`                                                                    |
 | `bulkrename`            | `<targetdir> <pattern> [newname]`                                                |
 | `cat`                   | `[-lines\|-nolines\|-plain] <file>`                                              |
@@ -110,7 +113,7 @@ Nitrocid KS currently provides the following commands (you can see their definit
 | `platform`              | `[-r\|-v\|-b\|-c\|-n]`                                                           |
 | `put`                   | `<filename> <url>`                                                               |
 | `rdebug`                |                                                                                  |
-| `reboot`                | `[-safe\|-maintenance\|-debug] [ip] [port]`                                      |
+| `reboot`                | `[-safe\|-maintenance\|-debug]`                                                  |
 | `reloadconfig`          |                                                                                  |
 | `retroks`               |                                                                                  |
 | `rexec`                 | `<address> <port> <command>`                                                     |
@@ -119,6 +122,8 @@ Nitrocid KS currently provides the following commands (you can see their definit
 | `rmuser`                | `<username>`                                                                     |
 | `rmgroup`               | `<groupname>`                                                                    |
 | `rmuserfromgroup`       | `<username> <groupname>`                                                         |
+| `rreboot`               | `[-safe\|-maintenance\|-debug] [ip] [port]`                                      |
+| `rshutdown`             | `[ip] [port]`                                                                    |
 | `saveconfig`            |                                                                                  |
 | `savescreen`            | `[-select] [saver]`                                                              |
 | `search`                | `<regex> <file>`                                                                 |
@@ -126,13 +131,13 @@ Nitrocid KS currently provides the following commands (you can see their definit
 | `select`                | `<answers> <input> [title] [title2] [...]`                                       |
 | `setexthandler`         | `<extension> <implementer>`                                                      |
 | `setsaver`              | `<saver>`                                                                        |
-| `settings`              | `[-saver\|-addonsaver\|-splash\|-driver\|-type]`                                 |
+| `settings`              | `[-saver\|-addonsaver\|-splash\|-driver\|-type=typename] [-sel]`                 |
 | `set`                   | `<value>`                                                                        |
 | `setrange`              | `<value> [value2] [value3] [...]`                                                |
-| `shownotifs`            |                                                                                  |
+| `shownotifs`            | `[-tui]`                                                                         |
 | `showtd`                |                                                                                  |
 | `showtdzone`            | `[-all] [-selection] <timezone>`                                                 |
-| `shutdown`              | `[ip] [port]`                                                                    |
+| `shutdown`              |                                                                                  |
 | `sleep`                 | `<ms>`                                                                           |
 | `sudo`                  | `<command>`                                                                      |
 | `sumfile`               | `[-relative] <algorithm/all> <file> [output]`                                    |

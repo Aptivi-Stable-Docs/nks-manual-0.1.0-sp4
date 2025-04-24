@@ -1,12 +1,12 @@
 ---
-description: This page talks about available methods of upgrading
 icon: up
+description: This page talks about available methods of upgrading
 ---
 
 # Upgrading the Kernel
 
 {% hint style="warning" %}
-### Stop!
+## Stop!
 
 Before you can upgrade, you need to consider the following:
 

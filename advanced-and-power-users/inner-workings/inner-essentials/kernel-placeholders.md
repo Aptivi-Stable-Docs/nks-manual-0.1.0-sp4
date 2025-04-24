@@ -5,7 +5,7 @@ icon: billboard
 
 # Kernel Placeholders
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/115-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/115-inner.png" alt=""><figcaption></figcaption></figure>
 
 Kernel placeholders are text variables for any piece of text that are replaced by different elements found within the kernel. They are parsed in several different areas of the kernel, the most famous example being the MOTD and the MAL messages.
 

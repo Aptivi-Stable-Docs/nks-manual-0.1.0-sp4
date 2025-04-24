@@ -15,7 +15,7 @@ You can always use these functions with the `SwitchesOnly` array found in the `E
 
 The switches can be set to conflict with each other by passing an array of incompatible switches to the SwitchInfo constructor, specifically the last parameter, `conflictsWith`. However, each switch to be conflicted must set their `conflictsWith` arrays to the opposing switches.
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/109-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/109-shell.png" alt=""><figcaption></figcaption></figure>
 
 For example, if you want a command to have three switches (`-s`, `-t`, `-u`) that conflict with each other, you can specify three SwitchInfo instances with the following properties (assuming that you've already set the `HelpDefinition`, `IsRequired`, and `ArgumentsRequired` parameters):
 

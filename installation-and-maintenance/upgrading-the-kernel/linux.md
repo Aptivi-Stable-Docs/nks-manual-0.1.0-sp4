@@ -1,6 +1,6 @@
 ---
-description: How to upgrade Nitrocid KS on Linux
 icon: linux
+description: How to upgrade Nitrocid KS on Linux
 ---
 
 # Linux

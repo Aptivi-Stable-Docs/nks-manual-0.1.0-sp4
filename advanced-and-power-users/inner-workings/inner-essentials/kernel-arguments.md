@@ -5,7 +5,7 @@ icon: square-sliders
 
 # Kernel Arguments
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/129-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/129-inner.png" alt=""><figcaption></figcaption></figure>
 
 Kernel Arguments are command-line parameters to the simulator that changes the behavior of the kernel according to the available arguments listed below:
 

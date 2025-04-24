@@ -5,7 +5,7 @@ icon: desktop
 
 # Screensaver Internals
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/068-saver.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/068-saver.png" alt=""><figcaption></figcaption></figure>
 
 Since Beta 3, your mods can now control whether to register or to unregister your custom screensaver or not. However, let's explain things one by one to learn more about how your mods can interact with screensavers.
 

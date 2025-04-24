@@ -1,11 +1,11 @@
 ---
-description: You can now dock your screen!
 icon: image
+description: You can now dock your screen!
 ---
 
 # Docking
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/042-dock.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/042-dock.png" alt=""><figcaption></figcaption></figure>
 
 When it comes to docking your laptop, your desktop, or your tablet, it becomes like an information center that shows you latest information about various things that happens in the whole world, such as the current time and date, the world clock, the latest match information about your favorite sports team, and so on.
 
@@ -21,6 +21,10 @@ Nitrocid KS attempts to simulate this concept by implementing the non-touch vers
 
 You can dock your screen to turn it to an information center using the `dock` command, giving it an ID of the dock. The following docks can be used:
 
-<table><thead><tr><th width="161">Name</th><th width="163">ID</th><th>Description</th></tr></thead><tbody><tr><td>Digital Clock</td><td><code>DigitalClock</code></td><td>Shows you a digital clock that updates itself</td></tr></tbody></table>
+<table><thead><tr><th width="161">Name</th><th width="163">ID</th><th>Description</th></tr></thead><tbody><tr><td>Digital Clock</td><td><code>DigitalClock</code></td><td>Shows you a digital clock that updates itself</td></tr><tr><td>Analog Clock</td><td><code>AnalogClock</code></td><td>Shows you an analog clock that updates itself</td></tr><tr><td>Emoji</td><td><code>Emoji</code></td><td>Cycles between emojis</td></tr></tbody></table>
 
-Once you dock your screen, depending on the dock used, you can follow the instructions usually given by the dock mode to exit it. The screensaver won't be launched during the docking period.
+Once you dock your screen, depending on the dock used, you can follow the instructions usually given by the dock mode to exit it. The screensaver won't be launched during the docking period. Docks use the widget system to render, so you can consult the page below for more information.
+
+{% content-ref url="../lockscreen-widgets.md" %}
+[lockscreen-widgets.md](../lockscreen-widgets.md)
+{% endcontent-ref %}

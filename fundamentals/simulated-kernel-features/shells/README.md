@@ -5,7 +5,7 @@ icon: square-terminal
 
 # Shells
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/002-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/002-shell.png" alt=""><figcaption></figcaption></figure>
 
 Operating systems contain their shells that listen to user input and execute any command – either built-in or custom – to perform operations that the users plan or need to do. Shells usually contain the prompt indicator to tell the user where is the current working directory, the user name, the host name, or anything that is set up to show.
 
@@ -46,7 +46,7 @@ All of the shells contain their own commands that you can review on either the h
 {% hint style="info" %}
 You can also use `findcmds` to quickly find commands by regular expressions as demonstrated below.
 
-<img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/062-findcmds.png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/062-findcmds.png" alt="" data-size="original">
 {% endhint %}
 
 ### Preface for the `-set` switch

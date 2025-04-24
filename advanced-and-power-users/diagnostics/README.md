@@ -5,7 +5,7 @@ icon: virus-covid
 
 # Diagnostics
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/096-debug.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/096-debug.png" alt=""><figcaption></figcaption></figure>
 
 The simulated kernel contains its own diagnostic tools to allow you to diagnose what's wrong with a feature. These diagnostic tools help you analyze the kernel for what it's doing and for how it failed.
 

@@ -11,7 +11,7 @@ Once the `GetLine()` function gets your input, it attempts to split any command 
 command1 arg1 arg2 ; command2 arg3 arg4
 ```
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/107-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/107-shell.png" alt=""><figcaption></figcaption></figure>
 
 Any command that starts with either a space or a hashtag will be ignored as a comment, like: (Notice the extra space in the first comment)
 
@@ -20,7 +20,7 @@ Any command that starts with either a space or a hashtag will be ignored as a co
 #comment
 ```
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/108-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/108-shell.png" alt=""><figcaption></figcaption></figure>
 
 The first word is a command, and all words following it in a single command text are the series of arguments. These words then get split to arguments (without the switch indicator `-switch`) and switches (arguments that come after the dash) using the `ProvidedArgumentsInfo` class, though it does much more than that.
 
@@ -66,7 +66,7 @@ You can know more about switch management by clicking on the below button:
 
 ### Local Variables and Commands
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/104-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/104-shell.png" alt=""><figcaption></figcaption></figure>
 
 Occasionally, you may run into conditions where you may have to set an environment variable locally before running a command. For example, on your Linux system, if you run a VNC server running on display `:1` and you want to show a GUI application there from the terminal emulator, you'll have to run the command like this:
 
@@ -82,7 +82,7 @@ The same thing can be done for local shell commands on Nitrocid, but the syntax 
 
 ### Special characters
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/105-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/105-shell.png" alt=""><figcaption></figcaption></figure>
 
 If a command, such as `wrap`, is set to use the arguments string, you can escape special characters that are defined by either the base Nitrocid regular expression driver, or by your custom regex driver. For example, if you want to pass a switch to a wrapped command, you can use the `wrap` command like this:
 
@@ -96,7 +96,7 @@ Unknown characters will stay escaped, but that depends on the behavior of the re
 
 ### `-set` switch property
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/106-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/106-shell.png" alt=""><figcaption></figcaption></figure>
 
 Your commands can now change their behavior, depending on if the `-set` switch was passed to the command. You can use the `parameters.SwitchSetPassed` value just like below:
 

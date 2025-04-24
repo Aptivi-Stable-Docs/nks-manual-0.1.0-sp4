@@ -19,7 +19,7 @@ This feature of Nitrocid KS is essential in cases where the default .NET impleme
 
 The reflection part of Nitrocid KS contains tools that allow you to manipulate with the arrays, such as sorting and randomizing array elements. Here are the following functions that you can use:
 
-* `RandomizeArray()`: Randomizes the array using the [Schwartzian's transform](http://en.wikipedia.org/wiki/Schwartzian_transform) formula.
+* `RandomizeArray()`: Randomizes the array using the [Schwartzian's transform](http://en.wikipedia.org/wiki/Schwartzian\_transform) formula.
 * `RandomizeArraySystem()`: Randomizes the array using .NET 8.0's [Random.Shared.Shuffle()](https://learn.microsoft.com/en-us/dotnet/api/system.random.shuffle) function.
 * `SortNumbers()`: Sorts the numbers using one of the sorting algorithms implemented by your array sorting drivers.
 

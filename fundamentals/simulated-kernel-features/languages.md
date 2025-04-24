@@ -5,7 +5,7 @@ icon: language
 
 # Languages
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/066-welcomelang.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/066-welcomelang.png" alt=""><figcaption></figcaption></figure>
 
 Localization was implemented when computers were distributed in non-English countries to aid the users in using their computers in their native language. This feature is currently supported in both Windows and Unix-based operating systems.
 
@@ -27,7 +27,7 @@ You can use `chlang` with the `-usesyslang` switch to change your kernel languag
 
 ### Through settings
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/067-setlang.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/067-setlang.png" alt=""><figcaption></figcaption></figure>
 
 To change the simulated kernel language using the settings application, follow these steps:
 
@@ -41,7 +41,7 @@ Note that your account must have either the administrative permissions enabled o
 
 ### Through command-line
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/156-chlang.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/156-chlang.png" alt=""><figcaption></figcaption></figure>
 
 To change the simulated kernel language using the command-line, follow these steps:
 

@@ -1,6 +1,6 @@
 ---
-description: How to upgrade Nitrocid KS on Android
 icon: android
+description: How to upgrade Nitrocid KS on Android
 ---
 
 # Android

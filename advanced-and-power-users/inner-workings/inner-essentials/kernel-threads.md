@@ -50,7 +50,7 @@ A `KernelThread` has the following values:
 
 ## Task manager
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/116-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/116-inner.png" alt=""><figcaption></figcaption></figure>
 
 The task manager can be called by `taskman` in the normal shell. It allows you to list both the Nitrocid KS threads and the unmanaged operating system threads, and it provides you with their information.
 
@@ -75,7 +75,7 @@ The selected thread information can be found on the right pane of your task mana
 
 #### Nitrocid KS threads
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/116-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/116-inner.png" alt=""><figcaption></figcaption></figure>
 
 The below information are shown:
 
@@ -92,7 +92,7 @@ The below information are shown:
 
 #### Unmanaged OS threads
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/117-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/117-inner.png" alt=""><figcaption></figcaption></figure>
 
 The below information are shown:
 
@@ -140,6 +140,8 @@ Thread.Sleep(1000);
 </strong>Thread.Sleep(3000);
 thread.Stop();
 </code></pre>
+
+You can get the child thread information and manage child threads inside child threads using the `GetChild()` function, passing it the child thread index starting from zero, usually accompanied by the `ChildThreadCount` property.
 
 ### Looping until the thread stops
 

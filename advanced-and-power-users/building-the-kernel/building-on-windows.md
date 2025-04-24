@@ -19,15 +19,20 @@ Once you have Visual Studio installed with at least the .NET 8.0 SDK and the .NE
 1. Open Visual Studio and press `Clone Repository`
 2.  In the repository location field, write `https://github.com/Aptivi/NitrocidKS.git`
 
-    <div align="left"><figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/072-vsbuild.png" alt=""><figcaption></figcaption></figure></div>
+    <div align="left">
+
+    <figure><img src="../../.gitbook/assets/072-vsbuild.png" alt=""><figcaption></figcaption></figure>
+
+    </div>
 3. Press `Clone`. The clone may need to take a few minutes depending on your Internet connection.
 4. Press `Solution Explorer` » `Switch Views` and double click on `Nitrocid.sln`\
-   ![](https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/073-vsbuild.png)
+   ![](../../.gitbook/assets/073-vsbuild.png)
 5. Press `Start` or press `Build` » `Build Solution` to build\
-   <img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/074-vsbuild.png" alt="" data-size="original">
-6.  Navigate to the build output folder, `KSBuild`, and double click on the `Nitrocid.exe` file\\
+   <img src="../../.gitbook/assets/074-vsbuild.png" alt="" data-size="original">
+6.  Navigate to the build output folder, `KSBuild`, and double click on the `Nitrocid.exe` file\
 
-    <figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/075-vsbuild.png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/075-vsbuild.png" alt=""><figcaption></figcaption></figure>
 
 ### Using the command-line
 
@@ -37,6 +42,7 @@ If you are a hardcore command-line user or if you prefer using the command-line,
 2. Execute `git clone https://github.com/Aptivi/NitrocidKS.git`
 3. Navigate to the cloned repository, `NitrocidKS`
 4. Execute `dotnet restore` and `dotnet build`
-5.  After building is done, run `dotnet run` on the `Nitrocid.csproj` file like so:\\
+5.  After building is done, run `dotnet run` on the `Nitrocid.csproj` file like so:\
 
-    <figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/076-vsbuild.png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/076-vsbuild.png" alt=""><figcaption></figcaption></figure>

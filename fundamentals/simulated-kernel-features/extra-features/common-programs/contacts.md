@@ -5,7 +5,7 @@ icon: square-user
 
 # Contacts
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/029-Contacts.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/029-Contacts.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Nitrocid KS provides this feature as an addon.
@@ -15,7 +15,12 @@ The contacts application lets you list your contacts that are imported from the 
 
 The contacts application is usually found in your computer under the form of a feature in your favorite mail client or under the form of a standalone application. It's also found in your smartphone in which you can make phone calls and send SMS messages.
 
-Nitrocid KS, however, has this application as a standalone application and can be executed by invoking the `contacts` command.
+Nitrocid KS, however, has this application as a standalone application and can be executed by invoking the `contacts` command. You can also perform contact management without the contacts interactive TUI by using one of the following four commands:
+
+* `contactinfo`: Shows you contact information
+* `importcontacts`: Imports the contacts from either a MeCard string or a vCard file
+* `listcontacts`: Lists all the contacts
+* `loadcontacts`: Loads all the contacts
 
 {% hint style="info" %}
 Please note that Nitrocid KS is unable to make phone calls and send SMS messages to your contacts as it requires a special device, such as Voice over IP (VoIP) phones, to be able to make calls from your computer, and we don't intend to simulate that.
@@ -41,7 +46,7 @@ The contact application can import your contacts from the `KSContactsImport` fol
 * VCF contact files holding multiple contacts (same version, mixed versions)
 * Android contacts database file (`contacts2.db`)
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/030-contactsmecard.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/030-contactsmecard.png" alt=""><figcaption></figcaption></figure>
 
 The contact application can also import your contact through a short MeCard syntax given to you by a QR code behind it. Below is an example of a complete MeCard syntax:
 

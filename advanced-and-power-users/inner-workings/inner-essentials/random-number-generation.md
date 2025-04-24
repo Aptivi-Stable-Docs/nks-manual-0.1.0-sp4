@@ -7,7 +7,7 @@ icon: slot-machine
 
 The random number generator is a module that allows you to get a random number from the smallest possible number to the largest possible number. It's available for the majority of the computers, such as your desktop computer, your tablet, and so on.
 
-Random number generation involves a sequence of numbers that can't be reasonly predicted by a human in which a random number in the sequence is selected. For example, a dice is an example of a mechanical hardware RNG. You can read more about random number generation [here](https://en.m.wikipedia.org/wiki/Random_number_generation).
+Random number generation involves a sequence of numbers that can't be reasonly predicted by a human in which a random number in the sequence is selected. For example, a dice is an example of a mechanical hardware RNG. You can read more about random number generation [here](https://en.m.wikipedia.org/wiki/Random\_number\_generation).
 
 Nitrocid KS has a random number generator driver that allows you to generate various random numbers or choices based on your purpose, such as getting a random integer number, a random boolean (true or false), and so on. This is wrapped with a kernel driver handler, which you can read about it below:
 

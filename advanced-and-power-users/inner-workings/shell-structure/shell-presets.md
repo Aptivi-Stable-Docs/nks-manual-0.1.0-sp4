@@ -5,7 +5,7 @@ icon: brush
 
 # Shell Presets
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/112-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/112-shell.png" alt=""><figcaption></figcaption></figure>
 
 While `ShellManager.GetLine()` prompts for input, it decides which shell preset, `PromptPresetBase`, is used according to the list of presets, `ShellPresets`, that **should** make a new prompt preset class that you made for your shell.
 

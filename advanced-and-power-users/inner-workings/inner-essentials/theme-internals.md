@@ -5,7 +5,7 @@ icon: palette
 
 # Theme Internals
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/135-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/135-inner.png" alt=""><figcaption></figcaption></figure>
 
 Nitrocid KS first came with color theme support in the fourth major version, 0.0.4, but only supported 16 colors defined by the `ConsoleColor` enumeration. Since then, various themes have been added to the point that we once reached 95+ themes before going down to 65+ themes.
 
@@ -160,26 +160,21 @@ Each function does the following:
 
 ### Checking the color requirements
 
-You can also check to see if a theme requires 255 colors or true colors using the below functions:
+You can also check to see if a theme requires a level of colors using the below functions:
 
 {% code title="ThemeTools.cs" lineNumbers="true" %}
 ```csharp
-// 255 colors
-public static bool Is255ColorsRequired(string theme)
-public static bool Is255ColorsRequired(ThemeInfo theme)
-public static bool Is255ColorsRequired(Dictionary<KernelColorType, Color> colors)
-
-// True colors
-public static bool IsTrueColorRequired(string theme)
-public static bool IsTrueColorRequired(ThemeInfo theme)
-public static bool IsTrueColorRequired(Dictionary<KernelColorType, Color> colors)
+public static bool MinimumTypeRequired(string theme, ColorType type)
+public static bool MinimumTypeRequired(ThemeInfo theme, ColorType type)
+public static bool MinimumTypeRequired(Dictionary<KernelColorType, Color> colors, ColorType type)
 ```
 {% endcode %}
 
 Each function takes either a theme name, an instance of `ThemeInfo`, or a dictionary of each kernel color type with their color instance.
 
-* The 255-color requirement functions check the `Color` instance for the type and return `true` if the type is 255 colors. Also, they return `true` if the theme requires true colors.
-* The true color requirement functions check the `Color` instance for the type and return `true` if the type is true colors.
+* If you pass the `EightBit` type to this function, it checks the `Color` instance for the type and return `true` if the type is 255 colors or higher.
+* If you pass the `TrueColor` type to this function, it checks the `Color` instance for the type and return `true` if the type is true colors.
+* If you pass the `FourBit` type to this function, it always returns `false`.
 
 ## Theme preview tools
 
@@ -192,7 +187,7 @@ The two below sections explains the two previews.
 
 ### Simple previews
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/137-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/137-inner.png" alt=""><figcaption></figcaption></figure>
 
 The simple theme preview shows you a wrapped list of color types and their examples, colored with the foreground color in the placeholder text. You can get access to this preview by calling these functions:
 
@@ -207,7 +202,7 @@ Each of these two functions get a list of kernel color types known by the color 
 
 ### Interactive preview
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/136-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/136-inner.png" alt=""><figcaption></figcaption></figure>
 
 The interactive theme preview shows you a full-screen colored box that changes its color according to the selected kernel color type and the list of theme colors. You can get access to this preview by calling these functions:
 

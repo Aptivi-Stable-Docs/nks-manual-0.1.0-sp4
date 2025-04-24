@@ -1,11 +1,11 @@
 ---
 description: You can add your own custom settings, too!
-icon: sliders-up
+icon: sliders
 ---
 
 # Custom Settings
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/150-custsettings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/150-custsettings.png" alt=""><figcaption></figcaption></figure>
 
 Customized settings give you an ability to leverage the built-in settings application provided by the Nitrocid base system to customize your mod's behavior. These settings are saved to your kernel configuration directory as JSON files under the class names for easy recognition.
 

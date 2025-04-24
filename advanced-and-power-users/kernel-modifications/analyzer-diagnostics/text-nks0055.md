@@ -13,7 +13,7 @@ This analyzer provides the following strings:
 
 This code analyzer detects the usage of `SplitNewLinesOld()` from the `TextTools` class found in the `KS.Misc.Text` namespace.
 
-While `SplitNewLinesOld()` is here to split the new lines efficiently, there has been problems dealing with the mixed newline handling, especially when it comes to splitting text by the Mac OS 9 newline, which is a carriage return character .
+While `SplitNewLinesOld()` is here to split the new lines efficiently, there has been problems dealing with the mixed newline handling, especially when it comes to splitting text by the Mac OS 9 newline, which is a carriage return character `\r`.
 
 As a result, `SplitNewLines()` has been rewritten to more efficiently handle these situations.
 

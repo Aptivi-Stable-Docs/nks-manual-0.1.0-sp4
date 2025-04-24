@@ -1,19 +1,17 @@
 ---
-description: How to install Nitrocid KS on Linux
 icon: linux
+description: How to install Nitrocid KS on Linux
 ---
 
 # Linux
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/146-linux.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/146-linux.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:blue;">**We now officially support**</mark> [<mark style="color:blue;">**Arch Linux**</mark>](https://archlinux.org/) <mark style="color:blue;">**as the distro for 64-bit (AMD + Intel and ARM) processors!**</mark>
 {% endhint %}
 
 Installing Nitrocid KS on Linux is straightforward, but we recommend installing the simulator using the manual unpack method.
-
-Before performing the installation, your Linux system must meet the following requirements:
 
 {% hint style="info" %}
 Extra kernel add-ons may require additional hardware on your computer to work. For example, the BassBoom addon requires that you have audio drivers installed on your computer.
@@ -73,7 +71,7 @@ If you're running Arch, you can install Nitrocid KS using the Arch Linux AUR. Ju
 1. Open your terminal emulator and install your preferred AUR helper. Further steps assume that you have [Yay](https://github.com/Jguer/yay) installed.
 2. Install the `nitrocid-25` package and follow the instructions (appending the `-XX` suffix to indicate the third mod API version part, such as `25`)
    * `yay -Sy nitrocid-25`
-3. Start `ks` (appending the same suffix above, like `ks-25`), or use your app drawer to find `Nitrocid KS` corresponding to your installed mod API version
+3. Start `ks` (appending the same suffix above, like `ks-26`), or use your app drawer to find `Nitrocid KS` corresponding to your installed mod API version
 
 You can't install the release version and the cutting-edge (those with the `-git` suffix) version at the same time, since files conflict.
 

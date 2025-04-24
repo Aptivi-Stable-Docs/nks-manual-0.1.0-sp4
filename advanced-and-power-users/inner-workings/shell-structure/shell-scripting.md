@@ -5,7 +5,7 @@ icon: scroll-old
 
 # Shell Scripting
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/110-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/110-shell.png" alt=""><figcaption></figcaption></figure>
 
 UESH shell contains scripting support. The shell scripts have the `.uesh` extension containing a subset of UESH commands inside it. A simple UESH script containing a command that sets a UESH variable is as follows:
 
@@ -28,7 +28,7 @@ As soon as the parsing is done, the final line gets executed by the `GetLine()` 
 
 ## Variables
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/111-shell.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/111-shell.png" alt=""><figcaption></figcaption></figure>
 
 UESH provides the variable facility, which holds the variable as a key and the variable value as a value. Each variable starts with the dollar sign like `$var`, regardless of the platform.
 
@@ -102,36 +102,13 @@ No scripting is complete with conditions, which control the execution of the com
 `<type>` can be one of the following:
 
 * `null`
-* `string`
-* `fullstring`
+* `string, fullstring`
 * `numeric`
-* `byte`
-* `i8`
-* `ubyte`
-* `u8`
-* `int16`
-* `short`
-* `i16`
-* `int32`
-* `integer`
-* `i32`
-* `int64`
-* `long`
-* `i64`
-* `uint16`
-* `ushort`
-* `u16`
-* `uint32`
-* `uinteger`
-* `u32`
-* `uint64`
-* `ulong`
-* `u64`
-* `decimal`
-* `float`
-* `f32`
-* `double`
-* `f64`
+* `byte, i8, ubyte, u8`
+* `int16, short, i16, uint16, ushort, u16`
+* `int32, integer, i32, uint32, uinteger, u32`
+* `int64, long, i64, uint64, ulong, u64`
+* `float, f32, double, f64, decimal`
 * `bool`
 * `regex`
 

@@ -1,6 +1,6 @@
 ---
-description: How to install Nitrocid KS on macOS
 icon: apple
+description: How to install Nitrocid KS on macOS
 ---
 
 # macOS

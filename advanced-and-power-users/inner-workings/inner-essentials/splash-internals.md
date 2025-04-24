@@ -5,7 +5,7 @@ icon: droplet
 
 # Splash Internals
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/001-welcome.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/001-welcome.png" alt=""><figcaption></figcaption></figure>
 
 Splash screens are usually shown when the kernel reaches to the point that the pre-boot environment is no longer needed. Think of these splash screens as Plymouth splash screens that appear on Debian, or the Windows logo that appears when Windows starts. Nitrocid attempts to simulate the same concept.
 
@@ -128,7 +128,9 @@ The above functions reset the progress report so that it says "Loading," so thes
 
 {% code title="SplashManager.cs" lineNumbers="true" %}
 ```csharp
+public static void BeginSplashOut()
 public static void BeginSplashOut(SplashContext context)
+public static void EndSplashOut()
 public static void EndSplashOut(SplashContext context)
 ```
 {% endcode %}
@@ -137,9 +139,9 @@ If you want to show messages or anything interesting during the kernel boot, you
 
 {% code title="SplashManager.cs" lineNumbers="true" %}
 ```csharp
-SplashManager.BeginSplashOut(SplashContext.Showcase);
+SplashManager.BeginSplashOut();
 InfoBoxColor.WriteInfoBox(Translate.DoTranslation("We've reached {0}%!"), vars: prog);
-SplashManager.EndSplashOut(SplashContext.Showcase);
+SplashManager.EndSplashOut();
 ```
 {% endcode %}
 
@@ -147,7 +149,7 @@ SplashManager.EndSplashOut(SplashContext.Showcase);
 
 The kernel stores a short boot log buffer for each session. You can get the boot log by going to the administrative shell and executing the `bootlog` command.
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/132-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/132-inner.png" alt=""><figcaption></figcaption></figure>
 
 You can also access the `LogBuffer` property in the `SplashReport` class, which is defined like this:
 

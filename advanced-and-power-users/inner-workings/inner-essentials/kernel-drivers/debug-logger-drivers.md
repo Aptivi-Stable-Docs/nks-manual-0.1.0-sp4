@@ -5,7 +5,7 @@ icon: plug-circle-bolt
 
 # Debug Logger Drivers
 
-<figure><img src="https://github.com/Aptivi-Stable-Docs/nks-manual-0.1.0/blob/main/.gitbook/assets/120-inner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/120-inner.png" alt=""><figcaption></figcaption></figure>
 
 The debug logger driver is one of the supported driver types on Nitrocid KS. These drivers allow you to change how the debug logger works, thus earning dynamic debug logging.
 
